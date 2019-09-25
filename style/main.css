@@ -10,7 +10,13 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 80px 0; 
+}
+  div {
+    padding: 20px;
+    background-color: black;
+    margin: 10px;
+  }
 
 p.learn {
   margin-top: 20px;
@@ -405,7 +411,7 @@ hr {
     font-size: 16px; 
     color: #354b59;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/presidents/2.jpg';
+    background: url('../tile-sets/presidents/2.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -992,7 +998,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   cursor: pointer;
   display: block;
   text-align: center;
-  float: none; 
+  float: right; 
   margin-top: 7px;
 }
 
